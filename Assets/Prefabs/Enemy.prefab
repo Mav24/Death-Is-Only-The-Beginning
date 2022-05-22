@@ -86,7 +86,7 @@ MonoBehaviour:
   target: {fileID: 0}
   moveSpeed: 1
   bullet: {fileID: 6929599985940185559, guid: de3ee778486b66b40acf430424f10401, type: 3}
-  shootDelay: 1.25
+  shootDelay: 1.5
   canShoot: 1
 --- !u!54 &-8633010110586055016
 Rigidbody:
