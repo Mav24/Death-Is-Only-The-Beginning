@@ -49,7 +49,10 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
         }
     }
 
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
 
 
 
@@ -63,6 +66,8 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
 
 
 
-    
+
+
+
 } // Class
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyCtrl : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class EnemyCtrl : MonoBehaviour
     [SerializeField] private float moveSpeed = 10f;
     [SerializeField] private GameObject bullet;
     [SerializeField] private float shootDelay = .5f;
+    [SerializeField] private Slider healthBar;
+    [SerializeField] private float health;
 
     public bool canShoot = true;
 
@@ -34,5 +37,23 @@ public class EnemyCtrl : MonoBehaviour
         canShoot = true;
 
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PlayerBullet"))
+        {
+            if(health == 0)
+            {
+                Destroy(gameObject);
+            }
+
+            if(health > 0)
+            {
+                health--;
+
+                healthBar.value = (float)health;
+            }
+        }
     }
 }
