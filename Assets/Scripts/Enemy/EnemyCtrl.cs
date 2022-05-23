@@ -11,8 +11,9 @@ public class EnemyCtrl : MonoBehaviour
     [SerializeField] private float shootDelay = .5f;
     [SerializeField] private Slider healthBar;
     [SerializeField] private float health;
-
+    [SerializeField] private int scoreToAdd = 10;
     public bool canShoot = true;
+    
 
     private void Start()
     {
@@ -45,13 +46,13 @@ public class EnemyCtrl : MonoBehaviour
         {
             if(health == 0)
             {
+                GameManager.instance.AddScore(scoreToAdd);
                 Destroy(gameObject);
             }
 
-            if(health > 0)
+            if(health >= 0)
             {
                 health--;
-
                 healthBar.value = (float)health;
             }
         }

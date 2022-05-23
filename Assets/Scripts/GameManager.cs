@@ -40,6 +40,13 @@ public class GameManager : MonoBehaviour
         ui.score.text = $"Score: {score}";
     }
 
+    public void MinusScore(int value)
+    {
+        score -= value;
+        ui.score.text = $"Score: {score}";
+
+    }
+
     public void CheckLives()
     {
         lives -= 1;
@@ -52,7 +59,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("Live", lives);
+            PlayerPrefs.SetInt("Lives", lives);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }

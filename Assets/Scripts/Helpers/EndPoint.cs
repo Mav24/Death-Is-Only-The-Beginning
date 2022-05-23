@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class EndPoint : MonoBehaviour
 {
+    [SerializeField] int scoreToMinus = 15;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            // Take health away from golden gate
-            Debug.Log("Enemy Reached End!");
+            GameManager.instance.MinusScore(scoreToMinus);
         }
     }
 }

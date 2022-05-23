@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
 {
     [SerializeField] Rigidbody rb;
     [SerializeField] float movementSpeed;
     [SerializeField] GameObject bullet;
+    [SerializeField] Slider healthBar;
 
+    public float health = 10;
     private Vector2 movementValue;
     private Controls controls;
 
@@ -51,7 +54,19 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("EnemyBullet"))
+        {
+
+            if(health == 0)
+            {
+                GameManager.instance.CheckLives();
+            }
+            if(health > 0)
+            {
+                health--;
+                healthBar.value = (float)health;
+            }
+        }
     }
 
 

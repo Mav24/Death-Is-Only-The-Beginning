@@ -8,12 +8,6 @@ public class EnemySpawner : MonoBehaviour
 
     public float spawnTimer = 5f;
 
-
-    private void Start()
-    {
-        //StartCoroutine(SpawnEnemy());
-    }
-
     private void Update()
     {
         spawnTimer -= Time.deltaTime;
@@ -29,10 +23,4 @@ public class EnemySpawner : MonoBehaviour
         spawnTimer = 5f;
         Instantiate(enemy, transform.position, Quaternion.identity);
     }
-
-    //IEnumerator SpawnEnemy()
-    //{
-    //    Instantiate(enemy, transform.position, Quaternion.identity);
-    //    yield return new WaitForSeconds(delay);
-    //}
 }

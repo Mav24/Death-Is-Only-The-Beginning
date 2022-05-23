@@ -1229,6 +1229,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   movementSpeed: 10
   bullet: {fileID: 6385297085657053659, guid: f7c1860cd35aa1d4f86a3fa64aa218d2, type: 3}
+  healthBar: {fileID: 1342929124184092236}
 --- !u!54 &2136122592702254949
 Rigidbody:
   m_ObjectHideFlags: 0
