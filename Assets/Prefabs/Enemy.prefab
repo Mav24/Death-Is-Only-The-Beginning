@@ -90,6 +90,7 @@ MonoBehaviour:
   shootDelay: 1.5
   healthBar: {fileID: 7387840706680446326}
   health: 10
+  scoreToAdd: 10
   canShoot: 1
 --- !u!54 &-8633010110586055016
 Rigidbody:
@@ -2154,7 +2155,7 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 10
-  m_WholeNumbers: 0
+  m_WholeNumbers: 1
   m_Value: 10
   m_OnValueChanged:
     m_PersistentCalls:

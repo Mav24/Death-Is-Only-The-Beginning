@@ -10,6 +10,7 @@ public class EndPoint : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             GameManager.instance.MinusScore(scoreToMinus);
+            Destroy(other.gameObject);
         }
     }
 }

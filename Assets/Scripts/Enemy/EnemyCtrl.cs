@@ -44,6 +44,8 @@ public class EnemyCtrl : MonoBehaviour
     {
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
+            Destroy(other.gameObject); // Add particles
+
             if(health == 0)
             {
                 GameManager.instance.AddScore(scoreToAdd);

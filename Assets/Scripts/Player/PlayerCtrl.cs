@@ -34,7 +34,7 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector3(movementValue.x, movementValue.y, 0) * movementSpeed;
+        rb.velocity = new Vector3(movementValue.x, 0, 0) * movementSpeed;
     }
     private void Update()
     {
@@ -57,6 +57,8 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
         if (other.gameObject.CompareTag("EnemyBullet"))
         {
 
+             // Add particles 
+
             if(health == 0)
             {
                 GameManager.instance.CheckLives();
@@ -66,6 +68,7 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
                 health--;
                 healthBar.value = (float)health;
             }
+            Destroy(other.gameObject);
         }
     }
 

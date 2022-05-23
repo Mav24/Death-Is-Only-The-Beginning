@@ -1,5 +1,95 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &393418064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 393418065}
+  - component: {fileID: 393418066}
+  m_Layer: 0
+  m_Name: LeftBound (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &393418065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393418064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.13, y: -0, z: -0.598}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3248423512096512583}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &393418066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393418064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12710154, y: 1, z: 1}
+  m_Center: {x: -0.07248598, y: 0, z: 0}
+--- !u!1 &1642881342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642881343}
+  - component: {fileID: 1642881344}
+  m_Layer: 0
+  m_Name: LeftBound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642881343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642881342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.003, y: -0, z: -0.598}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3248423512096512583}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1642881344
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642881342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12710154, y: 1, z: 1}
+  m_Center: {x: -0.07248598, y: 0, z: 0}
 --- !u!1 &73519906829726951
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,7 +99,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2974809541465012580}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BaseCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +138,7 @@ GameObject:
   - component: {fileID: 8242340981650712628}
   - component: {fileID: 6566475582213271005}
   - component: {fileID: 1286576322147379477}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6700915588050141967}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: WingsL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +284,7 @@ GameObject:
   - component: {fileID: 8523575574548834199}
   - component: {fileID: 3283100622478630431}
   - component: {fileID: 256333052131935746}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +382,7 @@ GameObject:
   - component: {fileID: 5243674825212124075}
   - component: {fileID: 6144279314472634561}
   - component: {fileID: 6206681425474212741}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -390,7 +480,7 @@ GameObject:
   - component: {fileID: 3105790677507873578}
   - component: {fileID: 2157138862247445119}
   - component: {fileID: 8986269545008844747}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +578,7 @@ GameObject:
   - component: {fileID: 3585763036724184740}
   - component: {fileID: 316385518083642040}
   - component: {fileID: 6829222408351105844}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +749,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 881264962365788558}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Angel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -694,7 +784,7 @@ GameObject:
   - component: {fileID: 5655469614012117119}
   - component: {fileID: 4512550712685596636}
   - component: {fileID: 9194210811388097143}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -792,7 +882,7 @@ GameObject:
   - component: {fileID: 7271193238889558748}
   - component: {fileID: 6365072372455273144}
   - component: {fileID: 7021517645812279246}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -890,7 +980,7 @@ GameObject:
   - component: {fileID: 5579533692934242338}
   - component: {fileID: 4423786784152796303}
   - component: {fileID: 5626697414851173882}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -988,7 +1078,7 @@ GameObject:
   - component: {fileID: 9207394251092361471}
   - component: {fileID: 5226446656651462877}
   - component: {fileID: 8540160364863848443}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Padding (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1085,7 +1175,7 @@ GameObject:
   - component: {fileID: 9115409615849997901}
   - component: {fileID: 9167639537439074994}
   - component: {fileID: 1387232534486605982}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Halo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1183,7 +1273,7 @@ GameObject:
   - component: {fileID: 2136122592702254948}
   - component: {fileID: 2136122592702254949}
   - component: {fileID: 2136122592702254950}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1211,6 +1301,8 @@ Transform:
   - {fileID: 5657108138938552131}
   - {fileID: 881264962365788558}
   - {fileID: 2464604826691676855}
+  - {fileID: 1642881343}
+  - {fileID: 393418065}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -1230,6 +1322,7 @@ MonoBehaviour:
   movementSpeed: 10
   bullet: {fileID: 6385297085657053659, guid: f7c1860cd35aa1d4f86a3fa64aa218d2, type: 3}
   healthBar: {fileID: 1342929124184092236}
+  health: 10
 --- !u!54 &2136122592702254949
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1243,7 +1336,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &2136122592702254950
@@ -1254,7 +1347,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136122592702254971}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.99, y: 1, z: 1}
@@ -1271,7 +1364,7 @@ GameObject:
   - component: {fileID: 8673899073332791579}
   - component: {fileID: 8439055740894061851}
   - component: {fileID: 5929343012103867717}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1368,7 +1461,7 @@ GameObject:
   - component: {fileID: 8367783112817023137}
   - component: {fileID: 1438760469213627580}
   - component: {fileID: 5612936305231361647}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1466,7 +1559,7 @@ GameObject:
   - component: {fileID: 5758195205140315410}
   - component: {fileID: 2725691413858680979}
   - component: {fileID: 7752037762259555966}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1564,7 +1657,7 @@ GameObject:
   - component: {fileID: 2239099023031752736}
   - component: {fileID: 5541032325644921737}
   - component: {fileID: 5023515700759199151}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1753,7 @@ GameObject:
   - component: {fileID: 3851460269039093756}
   - component: {fileID: 8995747212423549649}
   - component: {fileID: 8744634615932553548}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1744,7 +1837,7 @@ GameObject:
   - component: {fileID: 3522713475341826782}
   - component: {fileID: 6426055435385583129}
   - component: {fileID: 5531831957438453489}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1841,7 +1934,7 @@ GameObject:
   - component: {fileID: 1354519273141324864}
   - component: {fileID: 380361600201495765}
   - component: {fileID: 679188002760569700}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1925,7 +2018,7 @@ GameObject:
   - component: {fileID: 5792843401067345926}
   - component: {fileID: 7077177719590421337}
   - component: {fileID: 7039213572069915644}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2023,7 +2116,7 @@ GameObject:
   - component: {fileID: 971291373953030046}
   - component: {fileID: 8825036162781532928}
   - component: {fileID: 8335018545884725262}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2121,7 +2214,7 @@ GameObject:
   - component: {fileID: 9056955587656708817}
   - component: {fileID: 6299156525414182038}
   - component: {fileID: 1539145945233259171}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ArmL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2216,7 +2309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7022587697845502386}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Specifics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2256,7 +2349,7 @@ GameObject:
   - component: {fileID: 2012621111738776088}
   - component: {fileID: 4004553133916915205}
   - component: {fileID: 8770512785692391947}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Padding (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2353,7 +2446,7 @@ GameObject:
   - component: {fileID: 4501799189205066708}
   - component: {fileID: 7163771167794380933}
   - component: {fileID: 2996052098429568337}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Padding (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2450,7 +2543,7 @@ GameObject:
   - component: {fileID: 6549688724155287869}
   - component: {fileID: 1582148552428412507}
   - component: {fileID: 392163327918705532}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Padding (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2547,7 +2640,7 @@ GameObject:
   - component: {fileID: 543633259460640936}
   - component: {fileID: 4939165283177085157}
   - component: {fileID: 308042374990770174}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2645,7 +2738,7 @@ GameObject:
   - component: {fileID: 3356655420675623498}
   - component: {fileID: 2335803700292000412}
   - component: {fileID: 6690303276031090524}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2743,7 +2836,7 @@ GameObject:
   - component: {fileID: 4030531023253004648}
   - component: {fileID: 8091347247943990372}
   - component: {fileID: 3379116261171690869}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2841,7 +2934,7 @@ GameObject:
   - component: {fileID: 4864984759414198978}
   - component: {fileID: 2556604809910078215}
   - component: {fileID: 1050896673201908304}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2939,7 +3032,7 @@ GameObject:
   - component: {fileID: 5240481343644219210}
   - component: {fileID: 1181455661989216618}
   - component: {fileID: 1431596258034315371}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3037,7 +3130,7 @@ GameObject:
   - component: {fileID: 3058359003051437167}
   - component: {fileID: 6947424567016715943}
   - component: {fileID: 3033804297440203809}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Padding (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3131,7 +3224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4186368266222851141}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: WingsR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3259,7 +3352,7 @@ GameObject:
   - component: {fileID: 7520142884358843846}
   - component: {fileID: 8387825941302585455}
   - component: {fileID: 7889272185774762946}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3357,7 +3450,7 @@ GameObject:
   - component: {fileID: 7554888569176694296}
   - component: {fileID: 8670638622053123236}
   - component: {fileID: 5635114921838431900}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3455,7 +3548,7 @@ GameObject:
   - component: {fileID: 6240149558652302113}
   - component: {fileID: 2602234319794798101}
   - component: {fileID: 3327255578971153094}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3551,7 +3644,7 @@ GameObject:
   - component: {fileID: 3768403662620548778}
   - component: {fileID: 5342476462778945494}
   - component: {fileID: 1447053215352169147}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3635,7 +3728,7 @@ GameObject:
   - component: {fileID: 8562558522873895199}
   - component: {fileID: 3163041676312110744}
   - component: {fileID: 2087365370124933653}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3732,7 +3825,7 @@ GameObject:
   - component: {fileID: 6107035711092547928}
   - component: {fileID: 3385248020516128394}
   - component: {fileID: 8960864264468232278}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3830,7 +3923,7 @@ GameObject:
   - component: {fileID: 633690242343204299}
   - component: {fileID: 1809306291485948795}
   - component: {fileID: 2029608546751317101}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ArmR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3928,7 +4021,7 @@ GameObject:
   - component: {fileID: 2667105930196502595}
   - component: {fileID: 934145413666971974}
   - component: {fileID: 8609942880477901732}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4026,7 +4119,7 @@ GameObject:
   - component: {fileID: 3723284181893003535}
   - component: {fileID: 274136239305343417}
   - component: {fileID: 4746288510982537219}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Padding (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4123,7 +4216,7 @@ GameObject:
   - component: {fileID: 315445940437089738}
   - component: {fileID: 8795504085244802071}
   - component: {fileID: 5421075747136941853}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4221,7 +4314,7 @@ GameObject:
   - component: {fileID: 5557442156782333363}
   - component: {fileID: 4202375266993083435}
   - component: {fileID: 3009495303975676989}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4318,7 +4411,7 @@ GameObject:
   - component: {fileID: 3470119666844406766}
   - component: {fileID: 4377967848284274075}
   - component: {fileID: 6245090634929069110}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4543,7 +4636,7 @@ GameObject:
   - component: {fileID: 4361439958484452590}
   - component: {fileID: 8191625621720319379}
   - component: {fileID: 4567637658814814720}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4641,7 +4734,7 @@ GameObject:
   - component: {fileID: 5802179287682709540}
   - component: {fileID: 3172176999913772973}
   - component: {fileID: 8104248531230557660}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Padding (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4737,7 +4830,7 @@ GameObject:
   - component: {fileID: 3029058322731699898}
   - component: {fileID: 3287245155656263756}
   - component: {fileID: 6471390299248126411}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Skullcap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4818,7 +4911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2960955491417844046}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Arms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4854,7 +4947,7 @@ GameObject:
   - component: {fileID: 9148401706777717305}
   - component: {fileID: 5934140644410226053}
   - component: {fileID: 3570480392000676899}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4952,7 +5045,7 @@ GameObject:
   - component: {fileID: 7627399665518712115}
   - component: {fileID: 4617220000815686814}
   - component: {fileID: 3416945720399595362}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5050,7 +5143,7 @@ GameObject:
   - component: {fileID: 2341512076520790161}
   - component: {fileID: 7299482054254112728}
   - component: {fileID: 8795762835007218375}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5147,7 +5240,7 @@ GameObject:
   - component: {fileID: 4667666254325468700}
   - component: {fileID: 4112463127367516996}
   - component: {fileID: 5564307399469428010}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Pants_Lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5247,7 +5340,7 @@ RectTransform:
   m_GameObject: {fileID: 8577806033936486564}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -2.18}
-  m_LocalScale: {x: 0.003017784, y: 0.0030177832, z: 0.0030177832}
+  m_LocalScale: {x: 0.0020599999, y: 0.0030177832, z: 0.0030177832}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6521644786519182718}
@@ -5332,7 +5425,7 @@ GameObject:
   - component: {fileID: 6325464471293111955}
   - component: {fileID: 8159146785301859026}
   - component: {fileID: 302377611119239872}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5430,7 +5523,7 @@ GameObject:
   - component: {fileID: 4421434457142268046}
   - component: {fileID: 6400842448165985213}
   - component: {fileID: 6363156314746769701}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5528,7 +5621,7 @@ GameObject:
   - component: {fileID: 694115377009610747}
   - component: {fileID: 2904725126516518586}
   - component: {fileID: 8729231262524423403}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feather (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5626,7 +5719,7 @@ GameObject:
   - component: {fileID: 1310238596558372665}
   - component: {fileID: 6751427361221449630}
   - component: {fileID: 6511211778124895790}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Padding (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

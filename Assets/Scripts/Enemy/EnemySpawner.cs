@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject enemy;
+    [SerializeField] private GameObject[] enemies;
 
     public float spawnTimer = 5f;
 
@@ -20,7 +21,10 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+        int randomEnemy = Random.Range(0, enemies.Length);
         spawnTimer = 5f;
-        Instantiate(enemy, transform.position, Quaternion.identity);
+        Instantiate(enemies[randomEnemy], transform.position, Quaternion.identity);
+
+
     }
 }
