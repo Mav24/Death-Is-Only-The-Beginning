@@ -12,7 +12,9 @@ public class EnemyCtrl : MonoBehaviour
     [SerializeField] private Slider healthBar;
     [SerializeField] private float health;
     [SerializeField] private int scoreToAdd = 10;
-    public bool canShoot = true;
+    [SerializeField] private GameObject deathSFX;
+
+    bool canShoot = true;
     
 
     private void Start()
@@ -44,10 +46,11 @@ public class EnemyCtrl : MonoBehaviour
     {
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
-            Destroy(other.gameObject); // Add particles
+            Destroy(other.gameObject);
 
             if(health == 0)
             {
+                GameManager.instance.PlayEnemyDeathParticles(transform.position);
                 GameManager.instance.AddScore(scoreToAdd);
                 Destroy(gameObject);
             }

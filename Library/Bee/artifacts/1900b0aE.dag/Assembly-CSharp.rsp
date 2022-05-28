@@ -348,6 +348,7 @@
 "Assets/Scripts/Helpers/DestroyDelay.cs"
 "Assets/Scripts/Helpers/EndPoint.cs"
 "Assets/Scripts/Helpers/GameManager.cs"
+"Assets/Scripts/Helpers/SFX.cs"
 "Assets/Scripts/MainMenuCtrl.cs"
 "Assets/Scripts/Player/PlayerBulletCtrl.cs"
 "Assets/Scripts/Player/PlayerCtrl.cs"

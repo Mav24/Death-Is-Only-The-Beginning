@@ -8,7 +8,14 @@ public class MainMenuCtrl : MonoBehaviour
     [SerializeField] private string sceneName;
     public void PlayButtonClicked()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void MainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitGame()

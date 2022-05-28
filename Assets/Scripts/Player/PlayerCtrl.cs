@@ -34,7 +34,7 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector3(movementValue.x, 0, 0) * movementSpeed;
+        rb.velocity = new Vector3(movementValue.x, movementValue.y, 0) * movementSpeed;
     }
     private void Update()
     {
@@ -65,6 +65,7 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
             }
             if(health > 0)
             {
+                GameManager.instance.PlayPlayerHitParticles(transform.position);
                 health--;
                 healthBar.value = (float)health;
             }
@@ -72,20 +73,9 @@ public class PlayerCtrl : MonoBehaviour, Controls.IPlayerActions
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void OnExit(InputAction.CallbackContext context)
+    {
+        GameManager.instance.PauseGame();
+    }
 } // Class
 
